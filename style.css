@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.uper1 {
+    margin: auto;
+}
+
+.uperside {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo1 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+fieldset {
+    margin: 1% 2%;
+    padding: 2%;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+.container img {
+    transition: transform 0.25s ease;
+    cursor: zoom-in;
+}
+
+input[type=checkbox]:checked~label>img {
+    transform: scale(2);
+    cursor: zoom-out;
+    border-radius: 10px;
+    height: 180px;
+    width: 130px;
+    margin: 120px;
+}

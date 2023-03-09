@@ -12,14 +12,14 @@
 <body>
     <div class="uperside">
         <div class="uper1">
-            <h1>Bhavin Pgiaghdar</h1>
+            <h1>Bhavin Paghdar</h1>
             <h4>Software Engineer (Mobile)</h4>
         </div>
         
             <div class="container">
                 <input type="checkbox" id="zoomCheck">
                 <label for="zoomCheck">
-                    <img class="photo1" src="./img/01.jpg">
+                    <img class="photo1" src="./img/02.jpg">
                 </label>
             </div>
     </div>
@@ -27,44 +27,35 @@
         <fieldset>
             <legend>Personal Information</legend>
             <label for="Name">Name:</label>
-            <input type="text" id="FirstName" placeholder="bhavin paghdar" name="user" required>
+            <input type="text" id="FirstName" readonly value="bhavin paghdar" name="user" required>
             <br>
             <br>
-            <label for="Name">Gender: </label>
-
-            <label for="male">Male</label>
-            <input type="radio" checked name="gender" id="male">
-            <label for="female">Female</label>
-            <input type="radio" name="gender" id="female">
-
+            <label for="birthday">Date of birth:</label>
+            <input type="text" id="birthday" readonly name="birthday" value="Aug 04, 1998" >
             <br>
             <br>
-            <label for="birthday">Date Of Birth:</label>
-            <input type="text" id="birthday" name="birthday" placeholder="Aug 04, 1998">
-            <br>
-            <br>
-            <label for="email">Email:</label>
-            <input type="email" placeholder="bhavinpaghdar@gmail.com" id="email">
+            <label for="birthplce">Birth place:</label>
+            <input type="text"  readonly value="Kathrota, Junagadh" required>
             <br>
             <br>
             <label for="telNo">Phone number: </label>
-            <input id="telNo" name="telNo" type="tel" list="defaultTels" placeholder="9727252726">
+            <input id="telNo" name="telNo" readonly type="tel" list="defaultTels" value="9727252726" >
             <br>
             <br>
             <label for="height">Height:</label>
-            <input type="text" id="height" placeholder="5'10'" required>
+            <input type="text" id="height" readonly value="5'10'" required>
             <br>
             <br>
             <label for="height">Weight:</label>
-            <input type="text" id="height" placeholder="54kg" required>
+            <input type="text" id="height" readonly value="54KG"  required>
             <br>
             <br>
             <label for="cast">Cast:</label>
-            <input type="text" placeholder="Leuva patel">
+            <input type="text" readonly value="Leuva patel">
             <br>
             <br>
             <label for="blood group">Blood Group:</label>
-            <input type="text" placeholder="AB+">
+            <input type="text" readonly value="AB+" >
             <br>
             <br>
         </fieldset>
